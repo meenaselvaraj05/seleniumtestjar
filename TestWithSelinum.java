@@ -4,8 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
- 
-public class TecAdminSeleniumTest {
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import java.util.concurrent.TimeUnit;
+public class TestWithSelinum{
  
         public static void main(String[] args) throws IOException, InterruptedException {
                 System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/chromeDriver/chromedriver");

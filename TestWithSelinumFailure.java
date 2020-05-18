@@ -33,6 +33,8 @@ public class TestWithSelinumFailure{
                         System.out.println("Pass");
                 } else {
                         System.out.println("Fail");
+			driver.quit();
+			System.exit(1);
                 }
                 driver.quit();
         }
